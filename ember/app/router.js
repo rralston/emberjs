@@ -7,6 +7,9 @@ Router.map(function() {
   	this.resource('speakers', function() {
     	this.route('show', {path: ':speaker_id'});
   	});
+  	this.resource('filmmakers', function() {
+    	this.resource('sign_up', function() {});
+  	});
 });
 
 export default Router;
